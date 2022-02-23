@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>msmar</title>
+    <link rel="icon" href=".//img&svg/msmar logo.svg" type="image/icon type">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['Inter', 'sans-serif'],
+        },
+      }
+    }
+  }
+</script>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href=".//stylee.css">
+
+</head>
+<body>
+<!--nav start-->
+<nav class="
+  fixed-top
+  w-full
+  flex flex-wrap
+  items-center
+  justify-between
+  py-0
+  bg-gray-100
+  text-gray-500
+  hover:text-gray-700
+  focus:text-gray-700
+  shadow-2xl
+  navbar navbar-expand-lg navbar-light
+  nav_bg
+  secon_font
+  ">
+  <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+  <button class="
+      navbar-toggler
+      text-gray-500
+      border-0
+      hover:shadow-none hover:no-underline
+      py-2
+      px-2.5
+      bg-transparent
+      focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline
+    " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+    class="w-6" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+    <path fill="currentColor"
+      d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+    </path>
+  </svg>
+  </button>
+  <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
+  <a class="
+        flex
+        items-center
+        text-gray-900
+        hover:text-gray-900
+        focus:text-gray-900
+        mt-2
+        lg:mt-0
+        mr-1
+      " href="#">
+
+  </a>
+  <!-- Left links -->
+  <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+    <li class="nav-item p-2">
+      <a class="nav-link text-black text-lg hover:text-gray-700 spaceing focus:text-gray-700 p-0 font-extrabold" href="#home">Home</a>
+    </li>
+    <li class="nav-item p-2">
+      <a class="nav-link text-black text-lg hover:text-gray-700 spaceing focus:text-gray-700 p-0 font-extrabold" href="#Services">Services</a>
+    </li>
+    <li class="nav-item p-2">
+      <a class="nav-link text-black text-lg hover:text-gray-700 spaceing focus:text-gray-700 p-0 font-extrabold" href="#About">About</a>
+    </li>
+    <li class="nav-item p-2">
+      <a class="nav-link text-black text-lg hover:text-gray-700 spaceing focus:text-gray-700 p-0 font-extrabold" href="#Contact">Contact</a>
+    </li>
+  </ul>
+  <!-- Left links -->
+  </div>
+  <!-- Collapsible wrapper -->
+
+  <!-- Right elements -->
+  <img src=".//img&svg/msmar logo.svg" style="width:55px" alt=""
+  loading="lazy" />
+  <!-- Right elements -->
+  </div>
+</nav>
+<!--nav end-->
+<!--slider start-->
+<div id="carouselExampleCaptions" class="carousel slide relative mt-12" data-bs-ride="carousel">
+  <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4 ">
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  <div class="carousel-inner relative w-full overflow-hidden">
+    <div class="carousel-item active relative float-left w-full">
+      <img
+        src=".//img&svg/first.jpg"
+        class="block w-full"
+        alt="..."
+      />
+      <div class="carousel-caption hidden md:block absolute text-center">
+        <h5 class="text-xl">Web Developer</h5>
+        <p>We can build an excellent website for you from your design and
+          idea and as many pages as you want We have extensive experience in
+          programming languages HTML , CSS ,JAVAscript and frameworks</p>
+      </div>
+    </div>
+    <div class="carousel-item relative float-left w-full">
+      <img
+        src=".//img&svg/second.jpg"
+        class="block w-full"
+        alt="..."
+      />
+      <div class="carousel-caption hidden md:block absolute text-center">
+        <h5 class="text-xl"> mobile Applications</h5>
+        <p>We can build you an excellent mobile application in a short period of time and with all the
+          specifications
+          you want</p>
+      </div>
+    </div>
+    <div class="carousel-item relative float-left w-full">
+      <img
+        src=".//img&svg/therd.jpg"
+        class="block w-full"
+        alt="..."
+      />
+      <div class="carousel-caption hidden md:block absolute text-center">
+        <h5 class="text-xl">Solving Problemsl</h5>
+        <p> We can solve software problems for all programming languages<br>
+          HTML ,CSS ,JAVAscript ,PhP ,Node.js ,Python ,Java
+.</p>
+      </div>
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div></div>
+<!--slider end-->
+<Div id="home"></Div>
+  <!--body start-->
+  <div>
+    <div>
+        <h1 class="text-center lg:text-4xl text-4xl font-cos mt-28 mb-32 lg:mx-80 secon_font first_title"
+            data-aos="zoom-in-up" data-aos-delay="10"> welcome in msmar</h1>
+    </div>
+    <div class="lg:flex lg:justify-between lg:ml:5 ml-10 lg:text-2xl grid justify-items-center text-xl">
+        <p class="lg:ml-28 lg:mt-16" data-aos="zoom-in-up" data-aos-delay="10">with <span
+                class="first_color msmar_font font-bold">MSMAR</span> You can have a website
+            that is easy and fast to use and for <span class="first_color font-medium">many fields</span></p>
+        <img src=".//img&svg/undrow1.svg" alt="img one" class="lg:mr-28 lg:mt-0 mt-4" width="500px"
+            data-aos="zoom-in-up" data-aos-delay="10">
+    </div>
+    <!--such as start-->
+    <div  class="text-center lg:text-4xl font-cos grid justify-items-center name-color-cos mt-20 ">
+        <h1 class="secon_font  first_title" data-aos="zoom-in-up" data-aos-delay="10">Such as</h1>
+        <div class="grid justify-items-center " data-aos="zoom-in-up" data-aos-delay="10">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-down-circle"
+                width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7655A1" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <circle cx="12" cy="12" r="9" />
+                <line x1="8" y1="12" x2="12" y2="16" />
+                <line x1="12" y1="8" x2="12" y2="16" />
+                <line x1="16" y1="12" x2="12" y2="16" />
+            </svg>
+        </div>
+    </div>
+    <!--such as end-->
+    <!--grid start-->
+    <div id="grid" class="grid_font lg:mt-40 lg:mb-32 mt-10 lg:grid grid-cols-4 justify-items-center gap-3 ">
+        <!--grid 1 start-->
+        <div class="lg:mr-2 grid justify-items-center  lg:space-y-4 space-y-10 ">
+            <div>
+                <img src=".//img&svg/grid1.svg" alt="" class="animate-pulse lg:w-52 lg:ml-5 w-80 " data-aos="zoom-in-up"
+                    data-aos-delay="10">
+            </div>
+            <h1 class="secon_font lg:text-2xl text-3xl  lg:ml-10 lg:pl-2 first_color" data-aos="zoom-in-up"
+                data-aos-delay="10"> web store </h1>
+        </div>
+        <!--grid1 end-->
+        <!--grid2 start-->
+        <div class=" lg:mr-2 grid justify-items-center flex justify-center lg:mt-0 mt-10 lg:space-y-0  space-y-10">
+            <div class=" ">
+                <img src=".//img&svg/grid2.svg" alt="" class="animate-pulse lg:w-52 lg:ml-5 w-80" data-aos="zoom-in-up"
+                    data-aos-delay="10">
+            </div>
+            <h1 class="secon_font lg:text-2xl text-3xl  lg:ml-7 lg:pl-2 first_color" data-aos="zoom-in-up"
+                data-aos-delay="10"> Educational site </h1>
+        </div>
+        <!--gride2 end-->
+        <!--grid3 start-->
+        <div class=" lg:mr-2 grid justify-items-center lg:mt-0 mt-10 lg:space-y-10  space-y-10 ">
+            <div>
+                <img src=".//img&svg/grid3.svg" alt="" class="animate-pulse lg:w-52 w-80 lg:ml-5" data-aos="zoom-in-up"
+                    data-aos-delay="10">
+            </div>
+            <h1 class="secon_font lg:text-2xl text-3xl  lg:ml-5 lg:mt-11 lg:pl-2 first_color"
+                data-aos="zoom-in-up" data-aos-delay="10"> introductory site </h1>
+        </div>
+        <!--gride3 end-->
+        <!--grid4 start-->
+        <div class=" lg:mr-2 grid justify-items-center lg:-ml-12 lg:pb-10 lg:mb-10 lg:mt-2 mt-10 lg:space-y-10  space-y-10 ">
+          <div>
+              <img src=".//img&svg/grid4.1.svg" alt="" class="animate-pulse lg:w-52 w-80 lg:ml-5" data-aos="zoom-in-up"
+                  data-aos-delay="10">
+          </div>
+          <h1 class="secon_font lg:text-2xl text-3xl  lg:ml-5 lg:mt-11 lg:pl-2 first_color"
+              data-aos="zoom-in-up" data-aos-delay="10"> pc/mobile application </h1>
+      </div>
+        <!--grid4 end-->
+    </div>
+    <!--grid end-->
+    <hr class="bg_coz_1" id="Services">
+    <!--services start-->
+    <div class="mt-28">
+        <div class="text-center font-cos-2 " data-aos="zoom-in-up" data-aos-delay="10">
+            <h1
+                class="font-bold secon_font  first_title grid justify-items-center font-serif  lg:mt-40 lg:border-b-2 lg:mx-96 lg:mb-32">
+                our services
+            </h1>
+        </div>
+        <div class="lg:flex lg:justify-between ">
+            <ul class="lg:text-2xl text-xl m-5 lg:m-10 lg:space-y-5 space-y-3 ">
+                <ol data-aos="zoom-in-up" data-aos-delay="10">
+                    <span class="first_color" data-aos="zoom-in-up" data-aos-delay="10">1</span>-Building mobile
+                    and desktop applications
+                </ol>
+                <ol data-aos="zoom-in-up" data-aos-delay="10">
+                    <span class="first_color" data-aos="zoom-in-up" data-aos-delay="10">2</span>-Build websites
+                    professionally
+                </ol>
+                <ol data-aos="zoom-in-up" data-aos-delay="10">
+                    <span class="first_color" data-aos="zoom-in-up" data-aos-delay="10">3</span>-We do training
+                    courses for students
+                </ol data-aos="zoom-in-up" data-aos-delay="10">
+                <ol data-aos="zoom-in-up" data-aos-delay="10">
+                    <span class="first_color" data-aos="zoom-in-up" data-aos-delay="10">4</span>-We do software
+                    graduation projects for students
+                </ol>
+            </ul>
+            <div class="lg:mr-20 grid justify-items-center " data-aos="fade-up" data-aos-delay="10">
+                <img src=".//img&svg/our servisc.svg" alt="" class="w-96">
+            </div>
+        </div>
+    </div>
+    <!--services end-->
+    <hr class="bg_coz_1 lg:mt-0 lg:mb-0 mt-28 mb-28 " id="project">
+<!--ABOUT US start-->
+<div id="About" class="bg_coz_2 lg:mt-0 lg:pl-12 px-5">
+  <div id="about" class=" lg:flex justify-between text-center ">
+      <div class="lg:ml-10 lg:mt-72 lg:ml-0 grid justify-items-center" data-aos="zoom-in-up"
+          data-aos-delay="10">
+          <img src=".//img&svg/msmar logo.svg" class="w-32 p-0 m-0 " alt="">
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+      </div>
+      <div class=" text-white font-bold lg:pt-3 lg:pb-3 font-cos lg:mt-28 mb-16 ">
+          <h4 class="msmar_font  lg:text-5xl text-4xl grid  justify-items-center" data-aos="zoom-in-up"
+              data-aos-delay="10">
+              who are we
+          </h4>
+          <p class="lg:text-2xl text-xl text-sm font-cos  " data-aos="zoom-in-up" data-aos-delay="10">
+              We are a group that seeks to provide software solutions to all problems<br> and we are
+              working on building
+              applications,
+              websites and desktop applications<br> and giving training courses to students and we seek to
+              develop the
+              software
+              reality
+          </p>
+          <hr class="lg:border-2 lg:border-gray-400 lg:mt-11 " data-aos="zoom-in-up" data-aos-delay="10">
+          <!--our goal start-->
+          <h4 class="msmar_font lg:text-5xl lg:mt-10 text-4xl grid justify-items-center"
+              data-aos="fade-up" data-aos-delay="10">Our goal</h4>
+          <p class="lg:text-2xl text-sm font-cos text-xl  " data-aos="fade-up" data-aos-delay="10">
+              Achieving the development and development of projects and companies, and we aim to help
+              students and provide
+              them with advice and software solutions
+          </p>
+      </div>
+      <div class="lg:mr-10 lg:mt-64 lg:pt-4 lg:ml-0 grid justify-items-center" data-aos="zoom-in-up"
+          data-aos-delay="10">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code" width="100"
+              height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <polyline points="7 8 3 12 7 16" />
+              <polyline points="17 8 21 12 17 16" />
+              <line x1="14" y1="4" x2="10" y2="20" />
+          </svg>
+      </div>
+  </div>
+</div>
+<!--ABOUT US end-->
+<!--foter start-->
+<div id="Contact" class="bg_foter ">
+  <div data-aos="zoom-in-up" data-aos-delay="10">
+      <div class=" text-center ">
+          <h1 class="lg:border-b-2 lg:mx-96 mb-10 name-color-cos secon_font  first_title "
+              data-aos="fade-up" data-aos-delay="10"> Contact </h1>
+      </div>
+      <div
+          class="text-white lg:text-lg text-sm  md:mx-20 ml-6 md:mt-0 md:grid md:justify-items-center md:grid-cols-3 md:space-x-20 :grid sm:grid-cols-2 sm:items-center ">
+          <div class="lg:space-x-2 flex justify-start ">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-calling"
+                  width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff"
+                  fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                      d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                  <line x1="15" y1="7" x2="15" y2="7.01" />
+                  <line x1="18" y1="7" x2="18" y2="7.01" />
+                  <line x1="21" y1="7" x2="21" y2="7.01" />
+              </svg>
+              <p>
+                  +(964)07xxxxxxxxx
+              </p>
+          </div>
+          <div class=" flex space-x-3  ">
+              <!--link page sart-->
+              <a href="#" class=" ">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-brand-instagram" width="25" height="25"
+                      viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <rect x="4" y="4" width="16" height="16" rx="4" />
+                      <circle cx="12" cy="12" r="3" />
+                      <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                  </svg></a>
+              <!--link page end-->
+              <p>
+                  Instagram
+              </p>
+          </div>
+          <div class="lg:-mt-2 lg:ml-0 ">
+              <a
+                  href="https://www.google.com/maps/place/IoT+Maker/@33.3081137,44.4511225,17z/data=!3m1!4b1!4m5!3m4!1s0x15578159577aad4b:0x94ec1623c6cde080!8m2!3d33.3081092!4d44.4489338"><svg
+                      xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2"
+                      width="45" height="45" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff"
+                      fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <line x1="18" y1="6" x2="18" y2="6.01" />
+                      <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+                      <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+                      <line x1="9" y1="4" x2="9" y2="17" />
+                      <line x1="15" y1="15" x2="15" y2="20" />
+                  </svg></a>
+          </div>
+      </div>
+  </div>
+
+  <div id="foter" class="bg-gray-900 py-3">
+      <p class="text-white text-center ">
+          Copyright &copy;2022 MSMAR. Designed & built By <span class="text-gray-400">Alhassan.Z.Dawood</span>
+      </p>
+  </div>
+</div>
+<!--Contact Us end-->
+</div>
+<!-- Back to top button -->
+<button
+  type="button"
+  data-mdb-ripple="true"
+  data-mdb-ripple-color="light"
+  class="inline-block lg:p-3 p-2 bg-purple-400 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out hidden bottom-5 right-5 fixed"
+  id="btn-back-to-top"
+>
+  <svg
+    aria-hidden="true"
+    focusable="false"
+    data-prefix="fas"
+    class="w-4 h-4"
+    role="img"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512"
+  >
+    <path
+      fill="currentColor"
+      d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"
+    ></path>
+  </svg>
+</button>
+
+<script>
+  // Get the button
+let mybutton = document.getElementById('btn-back-to-top');
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = 'block';
+  } else {
+    mybutton.style.display = 'none';
+  }
+}
+// When the user clicks on the buatton, scroll to the top of the document
+mybutton.addEventListener('click', backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+</body>
+</html>
